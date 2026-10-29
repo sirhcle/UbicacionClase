@@ -127,10 +127,7 @@ final class UbicacionManager: NSObject {
 
 /// Aquí están los "avisos" del delegado. Cada función se ejecuta sola cuando el sistema
 /// tiene algo que contarnos; nosotros nunca las llamamos.
-///
-/// `@preconcurrency` le dice a Swift que estos métodos de Apple se llaman en el hilo
-/// principal, igual que el resto de esta clase.
-extension UbicacionManager: @preconcurrency CLLocationManagerDelegate {
+extension UbicacionManager: CLLocationManagerDelegate {
     
     /// El permiso cambió (el usuario respondió el aviso o lo cambió en Ajustes).
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
