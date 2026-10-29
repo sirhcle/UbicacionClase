@@ -11,7 +11,11 @@ import SwiftUI
 struct UbicacionClaseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MenuView()
         }
     }
+}
+
+#Preview {
+    MenuView()
 }
