@@ -45,7 +45,7 @@ struct MenuView: View {
         switch ejemplo {
         // Relleno temporal: cada ejemplo lo reemplaza por su pantalla real.
         case .miUbicacion:
-            Text("Mostrará la pantalla: \(ejemplo.titulo)")
+            UbicacionView()
         case .mapa:
             Text("Mostrará un mapa con pines: \(ejemplo.titulo)")
         case  .buscarLugares:
