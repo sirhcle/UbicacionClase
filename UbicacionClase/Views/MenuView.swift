@@ -49,7 +49,7 @@ struct MenuView: View {
         case .mapa:
             MapaView()
         case  .buscarLugares:
-            Text("Mostrará una pantalla para búsqueda: \(ejemplo.titulo)")
+            BuscarView()
         case .ruta:
             Text("Por si da tiempo... XD: \(ejemplo.titulo)")
         }
