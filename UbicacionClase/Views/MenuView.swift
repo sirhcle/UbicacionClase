@@ -47,7 +47,7 @@ struct MenuView: View {
         case .miUbicacion:
             UbicacionView()
         case .mapa:
-            Text("Mostrará un mapa con pines: \(ejemplo.titulo)")
+            MapaView()
         case  .buscarLugares:
             Text("Mostrará una pantalla para búsqueda: \(ejemplo.titulo)")
         case .ruta:
