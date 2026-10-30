@@ -51,7 +51,7 @@ struct MenuView: View {
         case  .buscarLugares:
             BuscarView()
         case .ruta:
-            Text("Por si da tiempo... XD: \(ejemplo.titulo)")
+            RutaView()
         }
     }
 }
